@@ -12377,3 +12377,1021 @@ te\\Http\\Request), Object(Illuminate\\Routing\\Route))
 #56 /home/vagrant/projects/personal/contentlab/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #57 {main}
 "} 
+[2018-08-14 09:53:34] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/5AbaWaGHBxxWYBFwLYRcUDAQXCkEhgtRFa3FRwqa): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/5AbaWaGHBxxWYBFwLYRcUDAQXCkEhgtRFa3FRwqa): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('5AbaWaGHBxxWYBF...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 09:53:34] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/fDwsbPzx3rJbkYswFAKtCEq8dc24HAXiVXFrvRBp): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/fDwsbPzx3rJbkYswFAKtCEq8dc24HAXiVXFrvRBp): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('fDwsbPzx3rJbkYs...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 09:55:56] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/QA0O0LUsINHaRF1hLbRPUeL5C4naFYUlqOtPEVqO): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/QA0O0LUsINHaRF1hLbRPUeL5C4naFYUlqOtPEVqO): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('QA0O0LUsINHaRF1...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 09:55:57] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/f3OcBX8if7YPxM3kDH9mD2M5WJumZR0Ch97cjrmO): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/f3OcBX8if7YPxM3kDH9mD2M5WJumZR0Ch97cjrmO): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('f3OcBX8if7YPxM3...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:01:23] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/Eo5e3DIvDhi4O0YQc2clEpnTysy4vS93pXZxjLOU): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/Eo5e3DIvDhi4O0YQc2clEpnTysy4vS93pXZxjLOU): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('Eo5e3DIvDhi4O0Y...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:01:25] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/Y0MmBIlpsXRsXp6oTzR2eqbr0Ants5ySfKRmVoGd): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/Y0MmBIlpsXRsXp6oTzR2eqbr0Ants5ySfKRmVoGd): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('Y0MmBIlpsXRsXp6...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:03:58] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/OPd0WrlO43a2yQCfbRAIzGakEFNczt1gYSVTaZpw): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/OPd0WrlO43a2yQCfbRAIzGakEFNczt1gYSVTaZpw): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('OPd0WrlO43a2yQC...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:03:59] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/GJSF3FrpJUND0JMEHjPH8TfE4W2Xjo0dKb4c2HEu): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/GJSF3FrpJUND0JMEHjPH8TfE4W2Xjo0dKb4c2HEu): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('GJSF3FrpJUND0JM...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:05:00] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/iscx9AXCPj52boH64rvWfXFPEvzP4w9ZoHnD015D): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/iscx9AXCPj52boH64rvWfXFPEvzP4w9ZoHnD015D): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('iscx9AXCPj52boH...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:05:00] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/LdfDVx4oHdALW4YGm30h10kqkh12zagK2Nc7Ifiy): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/LdfDVx4oHdALW4YGm30h10kqkh12zagK2Nc7Ifiy): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('LdfDVx4oHdALW4Y...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:05:22] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/ENWfFfYGi49ODz1aNF9qS0jHFFivvhwUiYeiXN5a): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/ENWfFfYGi49ODz1aNF9qS0jHFFivvhwUiYeiXN5a): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('ENWfFfYGi49ODz1...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:05:23] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/lJyUWwYqBb3TonGJaeQvqQMvv3IUie0Y8hdTIMWj): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/lJyUWwYqBb3TonGJaeQvqQMvv3IUie0Y8hdTIMWj): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('lJyUWwYqBb3TonG...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:06:40] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/YNXtZeUf29ZeltSGsDqeXebe4XRN1KNvLnRJfyAD): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/YNXtZeUf29ZeltSGsDqeXebe4XRN1KNvLnRJfyAD): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('YNXtZeUf29ZeltS...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:06:40] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/ubxqjB1B4re9mTLDder8AIIeLOYZwhCAB5BnVl8i): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/ubxqjB1B4re9mTLDder8AIIeLOYZwhCAB5BnVl8i): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('ubxqjB1B4re9mTL...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:08:25] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/kQkBpyv3Nn7eJaNN01qyqhvhwq5zkfoXdGFHYiNJ): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/kQkBpyv3Nn7eJaNN01qyqhvhwq5zkfoXdGFHYiNJ): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('kQkBpyv3Nn7eJaN...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:08:26] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/2y10iKiu8KEwd9ac9DTPLe2T7ZnzHwpZfNX2gDoQ): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/2y10iKiu8KEwd9ac9DTPLe2T7ZnzHwpZfNX2gDoQ): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('2y10iKiu8KEwd9a...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:09:12] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/9DIOuxZameW9rad1x60TxQCLdUoyXeB8vNhUhO7Q): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/9DIOuxZameW9rad1x60TxQCLdUoyXeB8vNhUhO7Q): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('9DIOuxZameW9rad...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:09:13] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/KXKDw1RtnsmLmdVOe6fFcGGD5Dibl7ujehGdLemR): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/KXKDw1RtnsmLmdVOe6fFcGGD5Dibl7ujehGdLemR): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('KXKDw1RtnsmLmdV...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:10:38] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/jPyrzuIevGFo0F2M78oPOHFuWPEa6mUcx0QjetyP): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/jPyrzuIevGFo0F2M78oPOHFuWPEa6mUcx0QjetyP): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('jPyrzuIevGFo0F2...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:10:39] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/Pey4XmxWH6bos0LIuA1UwI5yZCFSIDEJu2ZbMEjx): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/Pey4XmxWH6bos0LIuA1UwI5yZCFSIDEJu2ZbMEjx): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('Pey4XmxWH6bos0L...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:10:47] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/urjkCpSsusGCkCxNyfVzDotjZIa7Rj2gnTe9SotR): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/urjkCpSsusGCkCxNyfVzDotjZIa7Rj2gnTe9SotR): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('urjkCpSsusGCkCx...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:10:48] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/6y3sjV4RHQTuyNHmdHo7j22t7Rkldn8IoB0eIyq4): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/6y3sjV4RHQTuyNHmdHo7j22t7Rkldn8IoB0eIyq4): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('6y3sjV4RHQTuyNH...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:14:45] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/OvrTvW7YF5z72K0B1A1tmq09QJIH821izE5ZUupw): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/OvrTvW7YF5z72K0B1A1tmq09QJIH821izE5ZUupw): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('OvrTvW7YF5z72K0...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:14:46] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/ImdpDhgH6R7vdgHMT0cIq1iy0DokLaCdazYjgJCB): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/ImdpDhgH6R7vdgHMT0cIq1iy0DokLaCdazYjgJCB): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('ImdpDhgH6R7vdgH...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:15:34] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/xMLkJ2ADaW3dGYHQloE3J3bbTkito6P8aRy5OQfd): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/xMLkJ2ADaW3dGYHQloE3J3bbTkito6P8aRy5OQfd): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('xMLkJ2ADaW3dGYH...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:15:35] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/3nawlv96dZunkg952B0vGyWXc48I4M3xPsrOmxnZ): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/3nawlv96dZunkg952B0vGyWXc48I4M3xPsrOmxnZ): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('3nawlv96dZunkg9...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:16:11] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/VoBKqupTvR4w8QZeWr7HPfRAB2urFhpvKbIAebdS): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/VoBKqupTvR4w8QZeWr7HPfRAB2urFhpvKbIAebdS): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('VoBKqupTvR4w8QZ...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:16:36] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/U4EukWpvx1eBUEQ7ZxOtbOoSvgG3Jj3IQn1LFEMh): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/U4EukWpvx1eBUEQ7ZxOtbOoSvgG3Jj3IQn1LFEMh): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('U4EukWpvx1eBUEQ...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:16:37] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/khGP6TwWYAPoP6HYyZtHbvlmD2mJFSY7zEgeTUsW): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/khGP6TwWYAPoP6HYyZtHbvlmD2mJFSY7zEgeTUsW): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('khGP6TwWYAPoP6H...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 10:18:41] production.ERROR: The "/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions" directory does not exist. {"exception":"[object] (InvalidArgumentException(code: 0): The \"/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions\" directory does not exist. at /home/vagrant/Code/contentlab/contentlab/vendor/symfony/finder/Finder.php:547)
+[stacktrace]
+#0 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(104): Symfony\\Component\\Finder\\Finder->in('/home/vagrant/C...')
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(133): Illuminate\\Session\\FileSessionHandler->gc(7200)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(60): Illuminate\\Session\\Middleware\\StartSession->collectGarbage(Object(Illuminate\\Session\\Store))
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#13 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#14 /home/vagrant/Code/contentlab/contentlab/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#15 {main}
+"} 
+[2018-08-14 10:18:41] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/khGP6TwWYAPoP6HYyZtHbvlmD2mJFSY7zEgeTUsW): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/khGP6TwWYAPoP6HYyZtHbvlmD2mJFSY7zEgeTUsW): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:2:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:2:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('khGP6TwWYAPoP6H...', 'a:2:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:21:06] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/gEUNqHCrlLNAyDEVBEL6lp8EFSRQPuUlnDJu72r8): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/gEUNqHCrlLNAyDEVBEL6lp8EFSRQPuUlnDJu72r8): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('gEUNqHCrlLNAyDE...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:21:22] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/WCKozEEX5BV7xfFzrseVcBSbAFRqpfzlFsh0vC4u): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/WCKozEEX5BV7xfFzrseVcBSbAFRqpfzlFsh0vC4u): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('WCKozEEX5BV7xfF...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:22:21] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/6lkkp8LfB6nhbUFlmefbpbqbIgop9wCeVCma4Ibi): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/6lkkp8LfB6nhbUFlmefbpbqbIgop9wCeVCma4Ibi): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('6lkkp8LfB6nhbUF...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:25:49] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/OBrWlbT5HKW7Suhx4xUzEwMdGGxmY7FjRX9BzZS4): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/OBrWlbT5HKW7Suhx4xUzEwMdGGxmY7FjRX9BzZS4): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('OBrWlbT5HKW7Suh...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:25:51] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/qEiZmeawPKxsyCj4Q02aISod17urb1PKrCQ1NkXU): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/qEiZmeawPKxsyCj4Q02aISod17urb1PKrCQ1NkXU): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('qEiZmeawPKxsyCj...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:25:56] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/GiTC8BK0tXmwWnM99ZXhlUlphnk8TvO7RQ8B2YUO): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/GiTC8BK0tXmwWnM99ZXhlUlphnk8TvO7RQ8B2YUO): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('GiTC8BK0tXmwWnM...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:26:31] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/agGzD3OsUBxTn2wbi9vKSmEzp9cEfwcTcsFHRvfp): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/agGzD3OsUBxTn2wbi9vKSmEzp9cEfwcTcsFHRvfp): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('agGzD3OsUBxTn2w...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:26:32] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/6vIER2SUHfF9eC1kUPrGpsg6bT9D6EalGRSakvAD): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/6vIER2SUHfF9eC1kUPrGpsg6bT9D6EalGRSakvAD): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('6vIER2SUHfF9eC1...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:28:05] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/5LYJBzcwEkNk59aAcgmAmBd4Dt6AmivmlXQ3H2Tx): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/5LYJBzcwEkNk59aAcgmAmBd4Dt6AmivmlXQ3H2Tx): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('5LYJBzcwEkNk59a...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:31:21] production.ERROR: The "/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions" directory does not exist. {"exception":"[object] (InvalidArgumentException(code: 0): The \"/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions\" directory does not exist. at /home/vagrant/Code/contentlab/contentlab/vendor/symfony/finder/Finder.php:547)
+[stacktrace]
+#0 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(104): Symfony\\Component\\Finder\\Finder->in('/home/vagrant/C...')
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(133): Illuminate\\Session\\FileSessionHandler->gc(7200)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(60): Illuminate\\Session\\Middleware\\StartSession->collectGarbage(Object(Illuminate\\Session\\Store))
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#13 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#14 /home/vagrant/Code/contentlab/contentlab/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#15 {main}
+"} 
+[2018-08-14 10:31:21] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/5LYJBzcwEkNk59aAcgmAmBd4Dt6AmivmlXQ3H2Tx): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/5LYJBzcwEkNk59aAcgmAmBd4Dt6AmivmlXQ3H2Tx): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:2:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:2:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('5LYJBzcwEkNk59a...', 'a:2:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:32:20] production.ERROR: The "/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions" directory does not exist. {"exception":"[object] (InvalidArgumentException(code: 0): The \"/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions\" directory does not exist. at /home/vagrant/Code/contentlab/contentlab/vendor/symfony/finder/Finder.php:547)
+[stacktrace]
+#0 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(104): Symfony\\Component\\Finder\\Finder->in('/home/vagrant/C...')
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(133): Illuminate\\Session\\FileSessionHandler->gc(7200)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(60): Illuminate\\Session\\Middleware\\StartSession->collectGarbage(Object(Illuminate\\Session\\Store))
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(66): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Router.php(660): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#13 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Router.php(635): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#14 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Router.php(601): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#15 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Router.php(590): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#16 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#17 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /home/vagrant/Code/contentlab/contentlab/vendor/fideloper/proxy/src/TrustProxies.php(56): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(30): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#28 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(46): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#34 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(149): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(102): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#37 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#38 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#39 /home/vagrant/Code/contentlab/contentlab/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#40 {main}
+"} 
+[2018-08-14 10:32:20] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/mNW4hD6AUgptbH0RNDOWtLeVrszLbk93T4ZoU0HW): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/mNW4hD6AUgptbH0RNDOWtLeVrszLbk93T4ZoU0HW): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('mNW4hD6AUgptbH0...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:34:05] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/KRmkXYOpK6Mqrtw5jxZrY8Ye91iavbTQaA7iYwYp): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/KRmkXYOpK6Mqrtw5jxZrY8Ye91iavbTQaA7iYwYp): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('KRmkXYOpK6Mqrtw...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:34:08] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/TslIl2l5VjR7331aGYrKJFBQHmvPPLllaDMLpn4E): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/TslIl2l5VjR7331aGYrKJFBQHmvPPLllaDMLpn4E): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('TslIl2l5VjR7331...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:40:40] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/l03Q7Zsohg7buOzRMgUbro0nDAOB5lQ8PEZaZcEN): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/l03Q7Zsohg7buOzRMgUbro0nDAOB5lQ8PEZaZcEN): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('l03Q7Zsohg7buOz...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:40:55] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/8iGu6UptZ12tMMfQe3zIYGZOenrv5Qmfi213tkbf): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/8iGu6UptZ12tMMfQe3zIYGZOenrv5Qmfi213tkbf): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('8iGu6UptZ12tMMf...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:41:12] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/4QxudBRZgo3kqCAuEeOjVBfCxDxpkuzwhGPP1RR8): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/4QxudBRZgo3kqCAuEeOjVBfCxDxpkuzwhGPP1RR8): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('4QxudBRZgo3kqCA...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:41:30] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/MBTNxeDPSLftvUzC7lR6jYgriSjMT8NIVeT4ABXA): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/MBTNxeDPSLftvUzC7lR6jYgriSjMT8NIVeT4ABXA): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('MBTNxeDPSLftvUz...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:45:37] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/UxeeKwev4AA8bREdheKcIBPiytQzi9lGUKGKoj4K): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/UxeeKwev4AA8bREdheKcIBPiytQzi9lGUKGKoj4K): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('UxeeKwev4AA8bRE...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:50:33] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/ON6Ju6fCi4hp9rNLhdqMg2XRqZnZJNr2iXOVEFzX): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/ON6Ju6fCi4hp9rNLhdqMg2XRqZnZJNr2iXOVEFzX): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('ON6Ju6fCi4hp9rN...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:53:06] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/9XDfj6rYUiluL4LyaqB7W8WeIdtNzXl3vHhLAG8O): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/9XDfj6rYUiluL4LyaqB7W8WeIdtNzXl3vHhLAG8O): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('9XDfj6rYUiluL4L...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:54:11] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/dyIv08O66SAdoospXaayrJTzgr8p1U1S0yyuQy4N): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/dyIv08O66SAdoospXaayrJTzgr8p1U1S0yyuQy4N): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('dyIv08O66SAdoos...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:57:12] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/JiJZ5xzehZNYutbIK04l1ygseWFrotXff7s8Ya2E): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/JiJZ5xzehZNYutbIK04l1ygseWFrotXff7s8Ya2E): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('JiJZ5xzehZNYutb...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:59:16] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/Vik3uqRcXwl1JHZrWyKGXdPCFffsgW3snPbuKQVh): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/Vik3uqRcXwl1JHZrWyKGXdPCFffsgW3snPbuKQVh): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('Vik3uqRcXwl1JHZ...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 10:59:42] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/Dhsx5brdmHQ7kqKEk1G9bTkba94XWoUnjXULtyMh): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/Dhsx5brdmHQ7kqKEk1G9bTkba94XWoUnjXULtyMh): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('Dhsx5brdmHQ7kqK...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:00:40] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/aPqjANsr8GftaWfsCHlLB0qdH1Pl40wO8ngHnV1J): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/aPqjANsr8GftaWfsCHlLB0qdH1Pl40wO8ngHnV1J): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('aPqjANsr8GftaWf...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:08:37] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/vA6i5eDE1FhP2cvYFm9bXWd8P7x57R8The7SbdKR): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/vA6i5eDE1FhP2cvYFm9bXWd8P7x57R8The7SbdKR): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('vA6i5eDE1FhP2cv...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:08:40] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/Ct9RPXBBWA8WnmJsiY6HCA06tOhz2aK5THuohwJy): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/Ct9RPXBBWA8WnmJsiY6HCA06tOhz2aK5THuohwJy): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('Ct9RPXBBWA8WnmJ...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:10:00] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/8HYb3wNNkyzYIIrLMjToVsBJlFCbHJsWTa9f6xGk): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/8HYb3wNNkyzYIIrLMjToVsBJlFCbHJsWTa9f6xGk): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('8HYb3wNNkyzYIIr...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:10:00] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/szwNe4trFxX2s2mwsfJdcbKkjtuNwlKwM2tbZDxi): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/szwNe4trFxX2s2mwsfJdcbKkjtuNwlKwM2tbZDxi): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('szwNe4trFxX2s2m...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:10:02] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/OCiJZkN0AzUUoCq2j6V6ApUFvvnbXe6ASLu9L1yw): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/OCiJZkN0AzUUoCq2j6V6ApUFvvnbXe6ASLu9L1yw): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('OCiJZkN0AzUUoCq...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:11:15] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/kkx5hBxuR0BOGP1A0M4cgWKMrVlcrVQkFjaQ8QFA): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/kkx5hBxuR0BOGP1A0M4cgWKMrVlcrVQkFjaQ8QFA): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('kkx5hBxuR0BOGP1...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:11:15] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/JaEI7aW2qqSh0kfO61LB3QMJ6gIV5h9cHYEBbsjq): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/JaEI7aW2qqSh0kfO61LB3QMJ6gIV5h9cHYEBbsjq): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('JaEI7aW2qqSh0kf...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:12:21] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/DHBqX1MrsdgHLvFS4jsuTFEq2cRWStzJ0KKo4jqk): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/DHBqX1MrsdgHLvFS4jsuTFEq2cRWStzJ0KKo4jqk): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('DHBqX1MrsdgHLvF...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:12:21] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/wJvxHuOVhOSrkWpTX8UeBywVPy0nzI3DdtVP9p4H): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/wJvxHuOVhOSrkWpTX8UeBywVPy0nzI3DdtVP9p4H): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('wJvxHuOVhOSrkWp...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:16:54] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/PIV0Yq8jW2cXAoFN889ix8c7tsw6Q4lnHyq7tTFT): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/PIV0Yq8jW2cXAoFN889ix8c7tsw6Q4lnHyq7tTFT): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('PIV0Yq8jW2cXAoF...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:16:54] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/5HqnKeketFB0zMLxnmfbnvjWwpDfCPbWJuWr6Itm): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/5HqnKeketFB0zMLxnmfbnvjWwpDfCPbWJuWr6Itm): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('5HqnKeketFB0zML...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:17:01] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/lY71L1VPNi6rpON267zbxWliHtadMzivpqdr0gCV): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/lY71L1VPNi6rpON267zbxWliHtadMzivpqdr0gCV): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('lY71L1VPNi6rpON...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:17:44] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/xLj38Wm5YtqAfHyc4UZayFXIJUoD66ouvloWEKoY): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/xLj38Wm5YtqAfHyc4UZayFXIJUoD66ouvloWEKoY): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('xLj38Wm5YtqAfHy...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:17:45] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/ggG5XnMgb6TT9LiTQkfau2usE8p7qWRty6NQhSCe): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/ggG5XnMgb6TT9LiTQkfau2usE8p7qWRty6NQhSCe): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('ggG5XnMgb6TT9Li...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:17:45] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/xUYzdJRStwtUc3DfK2NscnlkuZP8By6KqYIlqxP1): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/xUYzdJRStwtUc3DfK2NscnlkuZP8By6KqYIlqxP1): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('xUYzdJRStwtUc3D...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 11:17:46] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/w9AFS2E2I8PQbXhzoEw3XMUeYZisNZDoRuXQX8Xe): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/w9AFS2E2I8PQbXhzoEw3XMUeYZisNZDoRuXQX8Xe): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('w9AFS2E2I8PQbXh...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\JsonResponse))
+#8 {main}
+"} 
+[2018-08-14 11:18:06] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/j4Hk8XLYSTaYAZX6DspzpHXBs69TEqZdOetGitQN): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/j4Hk8XLYSTaYAZX6DspzpHXBs69TEqZdOetGitQN): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('j4Hk8XLYSTaYAZX...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:18:06] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/FK97G6xHbNRD6IxmDNBhre0flcvO0TGDokLYEn9j): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/FK97G6xHbNRD6IxmDNBhre0flcvO0TGDokLYEn9j): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('FK97G6xHbNRD6Ix...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:19:19] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/eugi41HqmAv7u9RJC7HNnlYvyjMEDDXIYFf18JZi): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/eugi41HqmAv7u9RJC7HNnlYvyjMEDDXIYFf18JZi): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('eugi41HqmAv7u9R...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:19:19] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/mReTAhHqX6vVhC6UMWPvRKIInljSl6uU6LphoJ0F): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/mReTAhHqX6vVhC6UMWPvRKIInljSl6uU6LphoJ0F): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('mReTAhHqX6vVhC6...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:20:42] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/bSMVH1dDFFww34f4T2dG21pHd7W302ajfOOljTcZ): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/bSMVH1dDFFww34f4T2dG21pHd7W302ajfOOljTcZ): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('bSMVH1dDFFww34f...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:20:42] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/oqcw73JHL7dHxCpnXcMNaVUE3MvgWPfP4zWi8Nyo): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/oqcw73JHL7dHxCpnXcMNaVUE3MvgWPfP4zWi8Nyo): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('oqcw73JHL7dHxCp...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2018-08-14 11:21:37] production.ERROR: file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/nbX7MDnDFjkuSpkKjGLgS5S2YUcIsE5a42XkmUZ1): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_put_contents(/home/vagrant/Code/contentlab/contentlab/storage/framework/sessions/nbX7MDnDFjkuSpkKjGLgS5S2YUcIsE5a42XkmUZ1): failed to open stream: No such file or directory at /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/home/vagrant/C...', 122, Array)
+#1 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', 2)
+#2 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(83): Illuminate\\Filesystem\\Filesystem->put('/home/vagrant/C...', 'a:3:{s:6:\"_toke...', true)
+#3 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Store.php(128): Illuminate\\Session\\FileSessionHandler->write('nbX7MDnDFjkuSpk...', 'a:3:{s:6:\"_toke...')
+#4 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(87): Illuminate\\Session\\Store->save()
+#5 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(218): Illuminate\\Session\\Middleware\\StartSession->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 /home/vagrant/Code/contentlab/contentlab/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 /home/vagrant/Code/contentlab/contentlab/public/index.php(60): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 

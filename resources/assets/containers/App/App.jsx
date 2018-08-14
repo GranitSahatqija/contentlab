@@ -14,6 +14,8 @@ import authRoutes from '../../routes/auth.jsx';
 
 import { connect } from 'react-redux';
 
+import { getAuthUser } from '../../redux/actions/authActions';
+
 class App extends Component{
 
     constructor(props) {
@@ -65,6 +67,8 @@ class App extends Component{
 
     componentDidMount() {
         this.state.notificationSystem = this.refs.notificationSystem;
+
+        getAuthUser();
     }
 
     render(){
@@ -99,6 +103,10 @@ function mapStateToProps(state) {
         authMessage: state.authReducer.message,
         clientMessage: state.facebookReducer.clientMessage
     }
+}
+
+function mapDispatchToProps(dispatch) {
+    return bindActionCreators({ getAuthUser }, dispatch)
 }
 
 export default connect(mapStateToProps)(App);

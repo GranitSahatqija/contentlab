@@ -2,7 +2,8 @@ const initialState = {
     user: {},
     message: "",
     loading: false,
-    isAuthenticated: checkToken()
+    isAuthenticated: false
+    // isAuthenticated: checkToken()
 }
 
 import dispatchUser from '../actions/authActions'
@@ -40,6 +41,7 @@ export const authReducer = (state = initialState, action) => {
             return {
                 ...state,
                 loading: true,
+                isAuthenticated: false,
                 message: ""
             }
             break;
@@ -49,6 +51,7 @@ export const authReducer = (state = initialState, action) => {
                 ...state,
                 loading: false,
                 user: action.user,
+                isAuthenticated: true,
                 message: ""
             }
             break;
@@ -56,6 +59,7 @@ export const authReducer = (state = initialState, action) => {
         case 'FETCH_AUTH_USER_FAILED':
             return {
                 ...state,
+                isAuthenticated: false,
                 message: action.message
             }
             break;
@@ -106,6 +110,3 @@ function checkToken () {
 
     return false
 }
-
-
-

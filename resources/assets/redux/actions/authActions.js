@@ -9,7 +9,7 @@ export const login = (user) => {
             type: "LOGIN_ATTEMPT",
             isAuthenticated: false
         })
-        return fetch(baseUrl + '/api/auth/login',
+        return fetch(baseUrl + '/login',
             {
                 body: JSON.stringify(user),
                 headers: {
@@ -48,42 +48,29 @@ export const login = (user) => {
 };
 
 export const getAuthUser = () => {
-
-    let jwtToken = localStorage.getItem('jwtToken') || null
-    let config = {}
-
-    if(jwtToken) {
-        config = {
-            headers: {
-                'Authorization': `Bearer ${jwtToken}`
-            },
-            method: "GET",
-        }
-    } else {
-        throw "No token saved!"
-    }
-
     return (dispatch) => {
         dispatch({
             type: "FETCH_AUTH_USER"
         })
-        return fetch(baseUrl + '/api/admin/auth/user', config)
+        return fetch(baseUrl + '/get/auth/user')
             .then((response) => {
                 response.json()
                 .then((data) => {
+                    console.log(data)
                     if (response.status === 200) {
                         dispatch(
                             {
                                 type: "FETCH_AUTH_USER_SUCCESS",
                                 user: data,
+                                isAuthenticated: true
                             }
                         )
                     } else {
-
                         dispatch(
                             {
                                 type: "FETCH_AUTH_USER_FAILED",
                                 message: data,
+                                isAuthenticated: false
                             }
                         )
                     }
@@ -93,26 +80,12 @@ export const getAuthUser = () => {
 };
 
 export const logOut = () => {
-    let jwtToken = localStorage.getItem('jwtToken') || null
-    let config = {}
-
-    if(jwtToken) {
-        config = {
-            headers: {
-                'Authorization': `Bearer ${jwtToken}`
-            },
-            method: "POST"
-        }
-    } else {
-        throw "No token saved!"
-    }
-
     return (dispatch) => {
         dispatch({
             type: "LOGOUT_ATTEMPT",
             isAuthenticated: false
         })
-        return fetch(baseUrl + '/api/auth/logout', config)
+        return fetch(baseUrl + '/logout', config)
             .then((response) => {
                 response.json()
                 .then((data) => {

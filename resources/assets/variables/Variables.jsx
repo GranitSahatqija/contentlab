@@ -5,8 +5,8 @@
 //
 
 //http://localhost:3000
-//https://admin.ida-h.ch
-const baseUrl = 'http://localhost:3000'
+const baseUrl = 'https://contentlab.labinotjakupi.com'
+// const baseUrl = 'http://localhost:3000'
 
 var selectOptions = [
   { value: 'id', label: 'Bahasa Indonesia' },

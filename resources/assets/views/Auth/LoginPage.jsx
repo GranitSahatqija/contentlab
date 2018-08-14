@@ -84,6 +84,7 @@ class LoginPage extends Component{
                                 ftTextCenter
                             />
                         </form>
+                        <a href="https://contentlab.labinotjakupi.com/auth/facebook">Login</a>
                     </Col>
                 </Row>
             </Grid>
