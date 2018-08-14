@@ -2,8 +2,10 @@ const initialState = {
     user: {},
     message: "",
     loading: false,
-    isAuthenticated: localStorage.getItem('jwtToken') ? true : false
+    isAuthenticated: checkToken()
 }
+
+import dispatchUser from '../actions/authActions'
 
 export const authReducer = (state = initialState, action) => {
     switch (action.type) {
@@ -90,3 +92,20 @@ export const authReducer = (state = initialState, action) => {
     }
 
 }
+
+function checkToken () {
+    var jwtToken = localStorage.getItem('jwtToken') || null
+
+    if (!jwtToken) {
+        axios.get('/get/auth/user').then((response) => {
+            dispatchUser(response.data)
+        }, (err) => {
+            console.log(err.response.data)
+        })
+    }
+
+    return false
+}
+
+
+

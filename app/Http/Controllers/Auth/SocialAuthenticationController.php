@@ -49,9 +49,9 @@ class SocialAuthenticationController extends Controller
     public function getAuthUser() {
         if($user = Auth::user())
         {
-            return $user;
+            return response()->json(['user' => $user, 'token' => $user->token], 200);
         } else {
-            return "not authenticated";
+            return response()->json(['message' => 'not authenticated'], 422);
         }
     }
 }

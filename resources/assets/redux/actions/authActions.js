@@ -1,5 +1,8 @@
 import { baseUrl } from '../../variables/Variables.jsx'
 
+import axios from 'axios'
+window.axios = axios
+
 export const login = (user) => {
     return (dispatch) => {
         dispatch({
@@ -137,4 +140,23 @@ export const logOut = () => {
                 })
             });
     };
+};
+
+
+export default function dispatchUser (data) {
+
+    console.log(data);
+
+    let token = data.token
+
+    // localStorage.setItem('jwtToken', token)
+
+    dispatch(
+        {
+            type: "LOGIN_ATTEMPT_SUCCESS",
+            response: data,
+            isAuthenticated: true
+        }
+    )
+    location.reload()
 };
